@@ -1,5 +1,4 @@
-import Vue, { VNode } from 'vue';
-import { h } from '@vue/composition-api';
+import Vue, { h, VNode } from 'vue';
 import {
   Node,
   Block,

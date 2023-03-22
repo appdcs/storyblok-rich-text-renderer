@@ -1,5 +1,4 @@
 import { createLocalVue } from '@vue/test-utils';
-import CompositionApi from '@vue/composition-api';
 import {
   HeadingNode,
   ParagraphNode,
@@ -16,7 +15,6 @@ import {
 
 export function createVueInstance() {
   const localVue = createLocalVue();
-  localVue.use(CompositionApi);
   return localVue;
 }
 

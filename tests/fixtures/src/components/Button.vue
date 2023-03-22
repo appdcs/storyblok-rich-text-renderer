@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent, ref } from 'vue';
 import { ComponentBody } from '@marv/storyblok-rich-text-types';
 
 export interface ButtonComponent extends ComponentBody {

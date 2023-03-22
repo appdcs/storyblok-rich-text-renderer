@@ -36,7 +36,7 @@ const plugins = [
   json(),
 ];
 
-const external = ['vue', 'vue-template-compiler', '@vue/composition-api'];
+const external = ['vue', 'vue-template-compiler'];
 
 const configs = targets.map((target) => createConfig(target));
 
@@ -66,7 +66,6 @@ function createConfig(target) {
   if (!isDev) {
     const globals = {
       vue: 'Vue',
-      '@vue/composition-api': 'vueCompositionApi',
       '@marvr/storyblok-rich-text-types': 'storyblokRichTextTypes',
     };
 

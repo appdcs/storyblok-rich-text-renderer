@@ -24,7 +24,7 @@ Top-level node which holds all other nodes.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbDocument',
@@ -47,7 +47,7 @@ Resolves headings from h1 to h6.
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent, ref } from 'vue';
 import { HeadingAttributes } from '@marvr/storyblok-rich-text-types';
 
 export default defineComponent({
@@ -82,7 +82,7 @@ Resolves paragraphs.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbParagraph',
@@ -103,7 +103,7 @@ Resolves block quotes.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbQuote',
@@ -126,7 +126,7 @@ Resolves ordered lists.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbOrderedList',
@@ -149,7 +149,7 @@ Resolves unordered lists.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbUnorderedList',
@@ -170,7 +170,7 @@ Resolves list items.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbListItem',
@@ -195,7 +195,7 @@ Resolves code blocks.
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent, ref } from 'vue';
 import { CodeAttributes } from '@marvr/storyblok-rich-text-types';
 
 export default defineComponent({
@@ -230,7 +230,7 @@ Resolves horizontal rules.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbHorizontalRule',
@@ -251,7 +251,7 @@ Resolves hard breaks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbBreak',
@@ -272,7 +272,7 @@ Resolves images.
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent, ref } from 'vue';
 import { ImageAttributes } from '@marvr/storyblok-rich-text-types';
 
 export default defineComponent({
@@ -313,7 +313,7 @@ Resolves bold marks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbBold',
@@ -334,7 +334,7 @@ Resolves strong marks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbStrong',
@@ -355,7 +355,7 @@ Resolves strike marks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbStrike',
@@ -376,7 +376,7 @@ Resolves underline marks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbUnderline',
@@ -397,7 +397,7 @@ Resolves italic marks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbItalic',
@@ -418,7 +418,7 @@ Resolves inline code marks.
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'SbCode',
@@ -443,7 +443,7 @@ Resolves links (story, asset, external & email).
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent, ref } from 'vue';
 import { LinkAttributes } from '@marvr/storyblok-rich-text-types';
 
 export default defineComponent({
@@ -482,7 +482,7 @@ Resolves styled [css-class](https://www.storyblok.com/cl/css-class-options-in-ri
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent, ref } from 'vue';
 import { StyledAttributes } from '@marvr/storyblok-rich-text-types';
 
 export default defineComponent({
